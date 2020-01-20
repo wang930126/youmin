@@ -1,0 +1,14 @@
+/*确定*/
+.dp_pop_mask {width:100%; height:100%; background:#000; opacity:.1; filter:alpha(opacity=10); position:fixed; top:0; left:0; z-index:2000;}
+.dp_pop_mask {_display:none; _position:absolute;_top:expression(eval(document.documentElement.scrollTop));}
+.dp_pop_layer {margin:-90px 0 0 -225px; width:450px; height:auto; background:#fff; border-radius:10px; box-shadow:0 0 20px 0 rgba(0,0,0,.5);}
+.dp_pop_layer {position:fixed; top:50%; left:50%; z-index:3000; _position:absolute;_top:expression(eval(document.documentElement.scrollTop+400));}
+.dp_pop_layer .dp_pop_top {width:auto; height:34px;}
+.dp_pop_layer .dp_pop_top a {float:right; display:inline-block; width:40px; height:40px; line-height:38px; color:#ccc; font-size:36px; text-align:center;}
+.dp_pop_layer .dp_pop_top a:hover {color:#888;}
+.dp_pop_layer .con {padding:0 25px; width:auto; height:105px; line-height:26px; color:#333; font-size:15px;}
+.dp_pop_layer .con span {color:#f35600;}
+.dp_pop_layer .btn {padding:0 25px; width:auto; height:50px; text-align:center;}
+.dp_pop_layer .btn a {display:inline-block; width:95px; height:32px; line-height:32px; color:#fff; font-size:15px; border-radius:2px; text-align:center;}
+.dp_pop_layer .btn a {background:#2476c9;}
+.dp_pop_layer .btn a:hover {background:#2d8ced;}

@@ -1,0 +1,217 @@
+.Top {min-width:900px; background:transparent;}
+.Top .top1 {padding-top:40px; width:900px; height:80px;}
+
+.Mid {min-width:900px; background:transparent;}
+
+/*底部*/
+.Bot {min-width:900px;}
+.Bot .Hot {width:900px;}
+.Bot .Hot  ul.foot li {margin-right:20px; padding-right:15px; width:156px;}
+.Bot .Hot  ul.foot li .like div {width:78px;}
+.Bot .Copyright {min-width:900px;}
+
+.Midcon {margin:0 auto; padding:50px 0; width:900px; height:auto; background:#f9f9f9;}
+.Midcon .error {width:auto; height:34px; line-height:24px; color:#e23703;}
+/*注册*/
+.Reg {padding:0 75px; width:750px; height:585px;}
+.Reg .SubmitOk {margin:100px auto;}
+.Reg .title {width:auto; height:60px; line-height:40px; color:#333; font-size:26px; font-weight:bold; text-align:center;}
+.Reg_L {float:left; padding-right:50px; width:438px; height:auto; border-right:1px solid #e5e5e5;}
+.Reg_L .RegLnav {width:100%; height:55px; text-align:center;}
+.Reg_L .RegLnav a {float:left; display:inline-block; width:219px; height:38px; line-height:38px; font-size:16px; font-weight:bold; border-top:5px solid #ddd;}
+.Reg_L .RegLnav a:hover {color:#e23703;}
+.Reg_L .RegLnav a.cur {color:#e23703; border-top:5px solid #e23703; background:url(../image/tx-nav.png) center -4px no-repeat;}
+.Reg_L .RegLcon {width:100%; height:auto;}
+.Reg_L .RegLcon .input {width:100%; height:auto;}
+.Reg_L .RegLcon .input input {float:left; margin:0;}
+.Reg_L .RegLcon .input input.int {padding:0 15px; width:406px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.Reg_L .RegLcon .input input.int {background:#fff; border:1px solid #d5d5d5; border-radius:2px;}
+.Reg_L .RegLcon .input input.int.cur {color:#000;}
+.Reg_L .RegLcon .input input.Sex {float:left; width:14px; height:14px; border:0;}
+.Reg_L .RegLcon .input label {float:left; margin-right:10px; padding-left:5px; display:inline-block; width:auto; height:14px; line-height:14px;}
+.Reg_L .RegLcon .input a {float:left; display:inline-block; line-height:14px;}
+.Reg_L .RegLcon .input .codeDiv {float:left; padding:0 15px; width:259px; height:48px; line-height:48px; color:#999; background:#fff; border:1px solid #ddd; border-radius:2px 0 0 2px;}
+.Reg_L .RegLcon .input input.codeVal {padding:0 15px; width:259px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei'; border:1px solid #ddd; border-radius:2px 0 0 2px;}
+.Reg_L .RegLcon .input input.codeVal.cur {color:#000;}
+.Reg_L .RegLcon .input .codeSendBtn {float:left; width:146px; height:48px; line-height:48px; text-align:center; color:#888; cursor:pointer;}
+.Reg_L .RegLcon .input .codeSendBtn {background:#f7f7f7; border:1px solid #ddd; border-left:0; border-radius:0 2px 2px 0;}
+.Reg_L .RegLcon .input .SendPhoneBtn {float:left; width:146px; height:48px; line-height:48px; text-align:center; color:#888; cursor:pointer;}
+.Reg_L .RegLcon .input .SendPhoneBtn {background:#f7f7f7; border:1px solid #ddd; border-left:0; border-radius:0 2px 2px 0;}
+.Reg_L .RegLcon .input .codeBtn {float:left; margin-right:10px; width:233px; height:48px; line-height:48px; text-align:center; color:#888; cursor:pointer;}
+.Reg_L .RegLcon .input .codeBtn {background:#fff; border:1px solid #ddd; border-radius:2px;}
+.Reg_L .RegLcon .input input.code {float:left; margin-right:10px; padding:0 15px; width:203px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.Reg_L .RegLcon .input input.code {border:1px solid #ddd; border-radius:2px; *font-size:14px; *text-align:center; *cursor:pointer;}
+.Reg_L .RegLcon .input input.code[disabled='disabled'] {color:#888; font-size:14px; text-align:center; cursor:pointer; background:#f7f7f7;}
+.Reg_L .RegLcon .input input.code.cur {color:#000;}
+.Reg_L .RegLcon .input .codeImg {float:left; width:auto; height:50px;}
+.Reg_L .RegLcon .input .codeImg img {float:left; margin-right:10px; width:120px; height:50px;}
+.Reg_L .RegLcon .input .codeImg a {float:left; display:inline-block; width:auto; height:50px; line-height:50px; color:#007bc9;}
+.Reg_L .RegLcon .btn {padding-top:30px; width:100%; height:auto; text-align:center;}
+.Reg_L .RegLcon .btn input {margin:0; border:0; cursor:pointer;}
+.Reg_L .RegLcon .btn input.submit {width:270px; height:50px; line-height:50px; color:#fff; font-size:20px; font-family:'Microsoft YaHei'; background:#e23703; border-radius:2px;}
+.Reg_L .RegLcon .btn input.submit:hover {background:#fc3e04;}
+.Reg_L .RegLcon .link {width:100%; height:40px; line-height:40px; text-align:center;}
+.Reg_L .RegLcon .link a {color:#e23703;}
+.Reg_L .RegLcon .link a:hover {border-bottom:1px solid #e23703;}
+
+.UserLogin .UserLogin_L .link {width:100%; height:40px; line-height:40px; text-align:center;}
+.UserLogin .UserLogin_L .link a {color:#e23703;}
+.UserLogin .UserLogin_L .link a:hover {border-bottom:1px solid #e23703;}
+
+.Reg_R {float:left; margin-left:-1px; padding-left:50px; width:211px; height:auto; border-left:1px solid #e5e5e5;}
+.Reg_R a {float:left; margin-bottom:10px; padding-left:74px; display:inline-block; width:135px; height:48px; line-height:48px; border:1px solid #ddd; border-radius:2px;}
+.Reg_R a {background:url(../image/dlfs.png) no-repeat;}
+.Reg_R a.weibo {background-position:35px 0;}
+.Reg_R a.qq {background-position:35px -48px;}
+.Reg_R a.weixin {background-position:35px -96px;}
+
+/*注册补充*/
+.RegSupply {margin:0 auto; width:360px; height:550px;}
+.RegSupply .title {width:100%; height:80px; line-height:50px; color:#333; font-size:26px; font-weight:bold; text-align:center;}
+.RegSupply .tit {width:740px; height:26px; line-height:26px; color:#555; font-weight:bold;}
+.RegSupply .input {width:100%; height:auto;}
+.RegSupply .input input {float:left; margin:0;}
+.RegSupply .input input.int {padding:0 15px; width:318px; height:38px; line-height:38px; color:#000; font-size:14px; font-family:'Microsoft YaHei'; border:1px solid #ddd; border-radius:2px;}
+.RegSupply .input input.int.cur {color:#000;}
+.RegSupply .input input.Sex {float:left; width:14px; height:14px;}
+.RegSupply .input label {float:left; margin-right:30px; padding-left:2px; display:inline-block; width:auto; height:14px; line-height:14px;}
+.RegSupply .input .Drop {float:left; margin-right:10px; width:110px; height:38px; background:#fff;}
+.RegSupply .input .Drop select {padding-left:10px; width:110px; height:36px; line-height:36px; color:#555; font-size:14px; font-family:'Microsoft YaHei';}
+.RegSupply .input .Drop select {background:url(../image/v.png) 88px center no-repeat; border:1px solid #ddd; border-radius:2px; -webkit-appearance:none;}
+.RegSupply .error {width:100%; height:18px; line-height:18px; color:#e11d03;}
+.RegSupply .btn {padding-top:10px; width:740px; height:auto;}
+.RegSupply .btn a {float:left; display:inline-block; width:170px; height:40px; line-height:40px; color:#f9f9f9; font-size:15px; font-weight:bold; text-align:center; border-radius:2px;}
+.RegSupply .btn a.submit {margin-right:10px; background:#e23703;}
+.RegSupply .btn a.submit:hover {background:#fe3e04;}
+.RegSupply .btn a.next {background:#444;}
+.RegSupply .btn a.next:hover {background:#545454;}
+
+
+/*邮箱注册完成*/
+.EmailOK {padding:0 117px; width:666px; height:550px;}
+.EmailOK .OKtishi {margin-left:-80px; padding-left:80px; width:703px; height:70px; line-height:44px; color:#333; font-size:20px; font-weight:bold; background:url(../image/ok.png) no-repeat;}
+.EmailOK .tit {width:100%; height:30px; line-height:30px; color:#333; font-size:17px; font-weight:bold;}
+.EmailOK .txt {width:100%; height:26px; line-height:26px; color:#333; font-size:16px;}
+.EmailOK .txt span {color:#007bc9; cursor:pointer;}
+.EmailOK .btn {padding:30px 0; width:100%; height:auto;}
+.EmailOK .btn a {display:inline-block; width:192px; height:50px; line-height:50px; color:#fff; font-size:16px; text-align:center; background:#e23703; border-radius:2px;}
+.EmailOK .btn a:hover {background:#fe4006;}
+.EmailOK .wenda {padding-top:20px; width:100%; height:auto; border-top:1px dashed #c5c5c5;}
+.EmailOK .obtainCode {padding-top:15px; width:100%; height:auto;}
+.EmailOK .obtainCode .tit {font-size:14px;}
+.EmailOK .obtainCode .tit span {padding-left:2px; color:#f00; font-size:12px; font-family:SimSun; font-weight:normal;}
+.EmailOK .obtainCode .input {width:100%; height:auto;}
+.EmailOK .obtainCode .input input {margin:0;}
+.EmailOK .obtainCode .input input.code {float:left; margin-right:10px; padding:0 15px; width:152px; height:38px; line-height:38px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.EmailOK .obtainCode .input input.code {border:1px solid #ddd; border-radius:2px;}
+.EmailOK .obtainCode .input input.code.cur {color:#000;}
+.EmailOK .obtainCode .input .codeImg {float:left; width:auto; height:40px;}
+.EmailOK .obtainCode .input .codeImg img {float:left; margin-right:10px; width:120px; height:40px;}
+.EmailOK .obtainCode .input .codeImg a {float:left; display:inline-block; width:auto; height:40px; line-height:40px; color:#007bc9;}
+.EmailOK .obtainCode .btn {padding:0;}
+.EmailOK .obtainCode .btn input {margin:0; border:0;}
+.EmailOK .obtainCode .btn input.submit {width:122px; height:40px; line-height:40px; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; cursor:pointer; background:#e23703; border-radius:2px;}
+.EmailOK .obtainCode .btn input.submit:hover {background:#fc3e04;}
+
+/*登录*/
+.UserLogin {padding:0 75px; width:750px; height:550px;}
+.UserLogin .title {width:auto; height:80px; line-height:50px; color:#333; font-size:26px; font-weight:bold; text-align:center;}
+.UserLogin_L {float:left; padding-right:50px; width:438px; height:auto; border-right:1px solid #e5e5e5;}
+.UserLogin_L .input {width:100%; height:auto;}
+.UserLogin_L .input input {float:left; margin:0;}
+.UserLogin_L .input input.int {padding:0 15px; width:390px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.UserLogin_L .input input.int {background:#fff; border:1px solid #d5d5d5; border-radius:2px;}
+.UserLogin_L .input input.int.cur {color:#000;}
+.UserLogin_L .input input.Sex {float:left; width:14px; height:14px; border:0;}
+.UserLogin_L .input label {float:left; margin-right:10px; padding-left:5px; display:inline-block; width:auto; height:14px; line-height:14px;}
+.UserLogin_L .input a.wjmm {float:right; display:inline-block; line-height:14px;}
+.UserLogin_L .input .codeBtn {float:left; margin-right:10px; width:233px; height:48px; line-height:48px; text-align:center; color:#888; cursor:pointer;}
+.UserLogin_L .input .codeBtn {background:#fff; border:1px solid #ddd; border-radius:2px;}
+.UserLogin_L .input input.code {float:left; margin-right:10px; padding:0 15px; width:203px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.UserLogin_L .input input.code {border:1px solid #ddd; border-radius:2px; *font-size:14px; *text-align:center; *cursor:pointer;}
+.UserLogin_L .input input.code[disabled='disabled'] {color:#888; font-size:14px; text-align:center; cursor:pointer; background:#f7f7f7;}
+.UserLogin_L .input input.code.cur {color:#000;}
+.UserLogin_L .input .codeImg {float:left; width:auto; height:50px;}
+.UserLogin_L .input .codeImg img {float:left; margin-right:10px; width:120px; height:50px;}
+.UserLogin_L .input .codeImg a.flushCode {float:left; display:inline-block; width:auto; height:50px; line-height:50px; color:#007bc9;}
+.UserLogin_L .error {width:100%; height:34px; line-height:24px; color:#e23703;}
+.UserLogin_L .btn {padding-top:50px; width:100%; height:auto; text-align:center;}
+.UserLogin_L .btn input {margin:0; border:0; cursor:pointer;}
+.UserLogin_L .btn input.submit {width:270px; height:50px; line-height:50px; color:#fff; font-size:20px; font-family:'Microsoft YaHei'; background:#e23703; border-radius:2px;}
+.UserLogin_L .btn input.submit:hover {background:#fc3e04;}
+
+.UserLogin_R {float:left; margin-left:-1px; padding-left:50px; width:211px; height:auto; border-left:1px solid #e5e5e5;}
+.UserLogin_R a {float:left; margin-bottom:10px; padding-left:74px; display:inline-block; width:135px; height:48px; line-height:48px; border:1px solid #ddd; border-radius:2px;}
+.UserLogin_R a {background:url(../image/dlfs.png) no-repeat;}
+.UserLogin_R a.weibo {background-position:35px 0;}
+.UserLogin_R a.qq {background-position:35px -48px;}
+.UserLogin_R a.weixin {background-position:35px -96px;}
+
+/*找回密码*/
+.RetrievePassword {margin:0 auto; width:620px; height:550px;}
+.RetrievePassword .title {width:100%; height:80px; line-height:50px; color:#333; font-size:26px; font-weight:bold; text-align:center;}
+.RetrievePassword .RPnav {width:100%; height:95px; text-align:center;}
+.RetrievePassword .RPnav a {float:left; padding-top:10px; display:inline-block; width:310px; height:38px; line-height:38px; font-size:16px; font-weight:bold; border-top:5px solid #ddd;}
+.RetrievePassword .RPnav a span {display:inline-block; width:auto; height:38px; background:url(//image.gamersky.com/webimg13/user/qbz.png) no-repeat;}
+.RetrievePassword .RPnav a span.yx {padding-left:48px; background-position:0 0;}
+.RetrievePassword .RPnav a span.sj {padding-left:30px; background-position:0 -38px;}
+.RetrievePassword .RPnav a:hover {color:#e23703;}
+.RetrievePassword .RPnav a:hover span.yx {background-position:0 -76px;}
+.RetrievePassword .RPnav a:hover span.sj {background-position:0 -114px;}
+.RetrievePassword .RPnav a.cur {color:#e23703; border-top:5px solid #e23703; background:url(../image/tx-nav.png) center -4px no-repeat;}
+.RetrievePassword .RPnav a.cur span.yx {background-position:0 -76px;}
+.RetrievePassword .RPnav a.cur span.sj {background-position:0 -114px;}
+.RetrievePassword .RPcon {width:100%; height:auto;}
+.RetrievePassword .RPcon .txt {width:100%; height:44px; line-height:44px;}
+.RetrievePassword .RPcon .input {width:100%; height:auto; line-height:26px;}
+.RetrievePassword .RPcon .input input {float:left; margin:0; border-radius:2px;}
+.RetrievePassword .RPcon .input input.int {margin-right:20px; padding:0 15px; width:398px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.RetrievePassword .RPcon .input input.int {background:#fff; border:1px solid #d5d5d5;}
+.RetrievePassword .RPcon .input input.int.cur {color:#000;}
+.RetrievePassword .RPcon .input input.SendEmailBtn {width:170px; height:50px; line-height:50px; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; cursor:pointer; border:0;}
+.RetrievePassword .RPcon .input input.SendEmailBtn {background:#e23703;}
+.RetrievePassword .RPcon .input input.SendEmailBtn:hover {background:#fc3e04;}
+.RetrievePassword .RPcon .input input.SendcodeBtn {width:170px; height:50px; line-height:50px; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; cursor:pointer; border:0;}
+.RetrievePassword .RPcon .input input.SendcodeBtn {background:#e23703;}
+.RetrievePassword .RPcon .input input.SendcodeBtn:hover {background:#fc3e04;}
+
+.RetrievePassword .RPcon .input input.SendPhoneBtn {width:170px; height:50px; line-height:50px; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; cursor:pointer; border:0;}
+.RetrievePassword .RPcon .input input.SendPhoneBtn {background:#e23703;}
+.RetrievePassword .RPcon .input input.SendPhoneBtn:hover {background:#fc3e04;}
+
+.RetrievePassword .RPcon .input input.codeVal {padding:0 15px; width:251px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.RetrievePassword .RPcon .input input.codeVal {border:1px solid #ddd; border-radius:2px 0 0 2px;}
+.RetrievePassword .RPcon .input input.codeVal.cur {color:#000;}
+.RetrievePassword .RPcon .input .codeSendBtn {float:left; margin-right:20px; width:146px; height:48px; line-height:48px; text-align:center; color:#888; cursor:pointer;}
+.RetrievePassword .RPcon .input .codeSendBtn {background:#f7f7f7; border:1px solid #ddd; border-left:0; border-radius:0 2px 2px 0;}
+.RetrievePassword .RPcon .input input.Subcode {width:170px; height:50px; line-height:50px; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; cursor:pointer; border:0;}
+.RetrievePassword .RPcon .input input.Subcode {background:#e23703;}
+.RetrievePassword .RPcon .input input.Subcode:hover {background:#fc3e04;}
+.RetrievePassword .RPcon .input a {color:#007bc9;}
+.RetrievePassword .RPcon .input .Vcode {width:130px;}
+.RetrievePassword .RPcon .error {width:100%; height:34px; line-height:24px; color:#e23703;}
+
+/*重置密码*/
+.ResetPassword {margin:0 auto; width:430px; height:550px;}
+.ResetPassword .title {width:100%; height:80px; line-height:50px; color:#333; font-size:26px; font-weight:bold; text-align:center;}
+.ResetPassword .input {width:100%; height:auto;}
+.ResetPassword .input input {float:left; margin:0;}
+.ResetPassword .input input.int {padding:0 15px; width:398px; height:48px; line-height:48px; color:#999; font-size:14px; font-family:'Microsoft YaHei';}
+.ResetPassword .input input.int {background:#fff; border:1px solid #d5d5d5; border-radius:2px;}
+.ResetPassword .input input.int.cur {color:#000;}
+.ResetPassword .error {width:100%; height:34px; line-height:24px; color:#e23703;}
+.ResetPassword .btn {width:100%; height:auto; text-align:center;}
+.ResetPassword .btn input {margin:0; border:0; cursor:pointer;}
+.ResetPassword .btn input.submit {width:270px; height:50px; line-height:50px; color:#fff; font-size:20px; font-family:'Microsoft YaHei'; background:#e23703; border-radius:2px;}
+.ResetPassword .btn input.submit:hover {background:#fc3e04;}
+
+/*错误提示*/
+.Ts {margin:150px auto; width:440px; height:auto; background:#fff; border:1px solid #d2d2d2; border-radius:2px; box-shadow:0 1px 5px 0 rgba(0,0,0,0.3);}
+.Ts .Ts_L {float:left; width:100px; height:100px; background:url(//image.gamersky.com/webimg13/user/error.png) center center no-repeat;}
+.Ts .Ts_R {float:left; width:340px; height:auto;}
+.Ts .Ts_R ul {padding:30px 15px 20px; width:310px; height:auto;}
+.Ts .Ts_R ul li.tt1 {width:310px; height:30px; color:#333; font-size:17px; font-weight:bold;}
+.Ts .Ts_R ul li.tt2 {width:310px; height:30px; color:#333;}
+.Ts .Ts_R ul li.txt {margin-left:-10px; padding-left:10px; width:310px; height:auto; line-height:18px; color:#e23703; background:url(//image.gamersky.com/webimg13/user/li1.png) 0 7px no-repeat; position:relative;}
+.Ts .Ts_R ul li.btn {width:310px; height:40px; line-height:40px;}
+.Ts .Ts_R ul li.btn a {float:left; display:inline-block; width:auto; height:22px;}

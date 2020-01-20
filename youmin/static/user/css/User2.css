@@ -1,0 +1,120 @@
+html {overflow-y:scroll;}
+body {margin:0;padding:0;font-size:14px;color:#000;font-family:'Microsoft YaHei',SimSun,Arial,Tahoma,Helvetica;}
+body {background:#0d0d0d url(../image/bg.jpg) center 0 no-repeat;}
+
+img {border:0;vertical-align:middle;margin-right: 10px;}
+a {color:#333;text-decoration:none;}
+a div {cursor:pointer;}
+a:hover {color:#e11d03;}
+a:focus {outline:none;}
+ul {margin:0;padding:0;list-style-type:none;}
+ul li {list-style-type:none;vertical-align:middle;}
+div,ul,li {overflow:hidden;}
+input {outline:0;}
+
+.none {display:none;}
+.block {display:block;}
+
+.Top {width:100%; min-width:1000px; height:auto; background:url("//image.gamersky.com/webimg13/user/topbg.jpg") center 0 no-repeat;}
+.Top .top1 {margin:0 auto; padding-top:30px; width:1000px; height:70px;}
+.Top .top1 .logo {float:left; width:auto; height:40px;}
+.Top .top1 .logo a {float:left; display:inline-block; width:165px; height:39px; background:url(../image/logo.png) no-repeat;}
+.Top .top1 .logo span {float:left; padding:17px 15px 0; display:inline-block; width:auto; height:22px; line-height:22px; color:#888; font-size:19px;}
+.Top .top1 .userbar {float:right; width:auto; height:40px;}
+.Top .top2 {margin:0 auto; width:1000px; height:40px;}
+.Top .top2 a {float:left; margin-right:1px; display:inline-block; width:110px; height:40px; line-height:40px; color:#eee; font-size:15px; text-align:center; background:#464646;}
+.Top .top2 a.cur {color:#333; font-weight:bold; background:#fff;}
+
+#NotLog a {float:left; padding:0 7px 0 21px; display:inline-block; width:auto; height:30px; line-height:32px; color:#fff;}
+#NotLog a {background:url("//image.gamersky.com/webimg13/user/logreg.png") no-repeat;}
+#NotLog a.log {margin-right:20px; background-position:0 0;}
+#NotLog a.reg {background-position:0 -30px;}
+#NotLog a:hover {color:#e23703;}
+#HasLog .useremail {float:left; width:86px; height:30px; background:url("//image.gamersky.com/webimg13/user/email.png") 0 center no-repeat;display:none;}
+#HasLog .useremail a {float:left; padding:0 7px 0 21px; display:inline-block; width:auto; height:30px; line-height:32px; color:#fff;}
+#HasLog .useremail a.remind {background:url("//image.gamersky.com/webimg13/user/remind.png") right 7px no-repeat;}
+#HasLog .useremail a:hover {color:#e23703;}
+#HasLog .username {float:left; width:auto; height:30px;}
+#HasLog .username a.uname {float:left; padding-right:18px; display:inline-block; width:auto; height:30px; line-height:32px; color:#fff; background:url("//image.gamersky.com/webimg13/user/user-v.png") right center no-repeat;}
+#HasLog .username a.uname img {margin-right:10px; width:30px; height:30px; border-radius:15px;}
+#HasLog .username .userLayer {display:none; float:left; margin:30px 0 0 -80px; *margin:30px 0 0 -194px; padding:0 10px 10px 10px; width:262px; height:auto; overflow:visible; position:absolute; z-index:100;}
+#HasLog .username .userLayer .zx {margin-bottom:-1px; width:262px; height:9px; position:relative; background:url("//image.gamersky.com/webimg13/user/userLayer.png") center 0 no-repeat;}
+#HasLog ul.usercon {padding:15px; width:230px; height:auto; background:#fff; border:1px solid #ddd; box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);}
+#HasLog ul.usercon li.user1 {margin-bottom:15px; width:230px; height:85px; border-bottom:1px dotted #d5d5d5;}
+#HasLog ul.usercon li.user1 .img {float:left; width:88px; height:72px;}
+#HasLog ul.usercon li.user1 .img img {width:72px; height:72px;}
+#HasLog ul.usercon li.user1 .time {float:left; width:142px; height:18px; line-height:18px; color:#666; font-size:12px;}
+#HasLog ul.usercon li.user1 .name {float:left; width:142px; height:36px; line-height:26px; color:#333; font-size:16px; font-weight:bold;}
+#HasLog ul.usercon li.user1 .binding {float:left; margin-left:-2px; width:144px; height:20px;}
+#HasLog ul.usercon li.user1 .binding a {float:left; margin-right:6px; display:inline-block; width:20px; height:18px; border:1px solid #fff; border-radius:2px; overflow:hidden;}
+#HasLog ul.usercon li.user1 .binding a {background:url("//image.gamersky.com/webimg13/user/binding.png") no-repeat;}
+#HasLog ul.usercon li.user1 .binding a.email {background-position:0 0;}
+#HasLog ul.usercon li.user1 .binding a.phone {background-position:-20px 0;}
+#HasLog ul.usercon li.user1 .binding a.weixin {background-position:-40px 0;}
+#HasLog ul.usercon li.user1 .binding a.qq {background-position:-60px 0;}
+#HasLog ul.usercon li.user1 .binding a.sina {background-position:-80px 0;}
+#HasLog ul.usercon li.user1 .binding a.email.ok {background-position:0 -18px;}
+#HasLog ul.usercon li.user1 .binding a.phone.ok {background-position:-20px -18px;}
+#HasLog ul.usercon li.user1 .binding a.weixin.ok {background-position:-40px -18px;}
+#HasLog ul.usercon li.user1 .binding a.qq.ok {background-position:-60px -18px;}
+#HasLog ul.usercon li.user1 .binding a.sina.ok {background-position:-80px -18px;}
+#HasLog ul.usercon li.user1 .binding a:hover {background-color:#f7f7f7; border:1px solid #d5d5d5;}
+#HasLog ul.usercon li.user1 .binding a i {display:none; margin:-25px 0 0 -14px; padding-bottom:5px; width:47px; height:18px; line-height:18px; color:#fff; font-size:12px; font-family:SimSun; font-style:normal; text-align:center;}
+#HasLog ul.usercon li.user1 .binding a i {position:absolute; background:url("//image.gamersky.com/webimg13/user/ts.png") no-repeat;}
+#HasLog ul.usercon li.user1 .binding a:hover i {display:block;}
+#HasLog ul.usercon li.user2 {margin-bottom:13px; width:230px; height:48px; border-bottom:1px dotted #d5d5d5;}
+#HasLog ul.usercon li.user2 a {float:left; padding-left:39px; display:inline-block; width:76px; height:34px; line-height:34px; color:#e23703; font-weight:bold; background:url("//image.gamersky.com/webimg13/user/userbg.png") no-repeat;}
+#HasLog ul.usercon li.user2 a.uc {background-position:0 0;}
+#HasLog ul.usercon li.user2 a.zl {background-position:0 -34px;}
+#HasLog ul.usercon li.user2 a.uc:hover {background-position:0 -68px;}
+#HasLog ul.usercon li.user2 a.zl:hover {background-position:0 -102px;}
+#HasLog ul.usercon li.user3 {width:230px; height:28px;}
+#HasLog ul.usercon li.user3 .link {float:left; width:auto; height:28px; line-height:28px; color:#888; font-size:12px; font-family:SimSun;}
+#HasLog ul.usercon li.user3 .link a {color:#888; font-size:14px; font-family:'Microsoft YaHei';}
+#HasLog ul.usercon li.user3 .link a:hover {color:#e11d03;}
+#HasLog ul.usercon li.user3 .ExitSign {float:right; width:auto; height:28px;}
+#HasLog ul.usercon li.user3 .ExitSign a {display:inline-block; width:63px; height:26px; line-height:26px; color:#666; text-align:center; background:#f7f7f7; border:1px solid #e5e5e5; border-radius:2px;}
+#HasLog ul.usercon li.user3 .ExitSign a:hover {color:#fff; background:#e23703; border:1px solid #ec5b2f; border-radius:2px;}
+#HasLog .username .userLayer .usercon .user3 a.ExitSign:hover {color:#fff; background:#e23703;}
+#HasLog .username:hover a.uname {color:#e23703;}
+#HasLog .username:hover .userLayer {display:block;}
+
+
+.Mid {padding-bottom:35px; width:100%; min-width:1000px; height:auto; min-height:866px; background:#fff;}
+/*提示信息*/
+.wenLayer {padding:10px; position:absolute;}
+.wenLayer .wen-zx {float:left; margin:0; padding:0; width:8px; height:50px; position:relative; background:url("//image.gamersky.com/webimg13/user/wenti.png") 0 2px no-repeat;}
+.wenLayer .wen-txt {float:left; margin:0 0 0 -1px; padding:15px; width:auto; max-width:300px; height:auto; line-height:22px; color:#555;}
+.wenLayer .wen-txt {background:#fff6f3; border:1px solid #f5c4b6; border-radius:2px; box-shadow:0 2px 3px 0 rgba(236,236,236,1);}
+/*弹层*/
+.jbxxLayer {display:none; padding:0 10px 10px; width:342px; height:auto; position:absolute;}
+.jbxxLayer .zx {margin-bottom:-1px; width:342px; height:19px; position:relative; background:url("//image.gamersky.com/webimg13/user/zx.png") center 0 no-repeat;}
+/*提交成功提示框*/
+.SubmitOk {padding:0 10px 0 110px; width:170px; height:62px; line-height:62px; color:#fff; background:url("//image.gamersky.com/webimg13/user/submit_ok.png") center center no-repeat;}
+
+/*错误提示层*/
+.PromptMask {width:100%; min-width:1000px; height:100%; background:#000; opacity:0.7; filter:alpha(opacity=70); position:fixed; top:0; left:0; z-index:200;}
+.PromptCon {margin:-100px 0 0 -250px; width:auto; max-width:440px; height:auto; overflow:visible; background:#fff; border-radius:3px; position:fixed; top:50%; left:50%; z-index:300;}
+.PromptCon .PromptTxt {padding:15px 75px 15px 85px; width:auto; height:auto; line-height:30px; font-size:18px; background:url("//image.gamersky.com/webimg13/user/tishi1.png") 20px -45px no-repeat;}
+.PromptCon .PromptTxt.err {background-position:20px 5px;}
+.PromptCon  a.PromptClose {position:absolute; right:-14px; top:-14px; display:inline-block; width:40px; height:40px; background:url("//image.gamersky.com/webimg13/user/close.png") no-repeat;}
+.PromptCon  a.PromptClose:hover {background-position:0 -40px;}
+
+/*底部*/
+.Bot {width:100%; min-width:1000px; height:auto; background:#181818;}
+.Bot .Hot {margin:0 auto; padding:30px 0; width:1000px; height:auto;}
+.Bot .Hot  ul.foot {width:1100px; height:auto;}
+.Bot .Hot  ul.foot li {float:left; margin-right:29px; padding-right:15px; width:162px; height:auto; border-right:1px dotted #2f2f2f;}
+.Bot .Hot  ul.foot li .tit {width:100%; height:32px; line-height:20px; color:#666; font-size:16px; font-weight:bold; font-family:'Microsoft YaHei';}
+.Bot .Hot  ul.foot li .tit a {color:#666;}
+.Bot .Hot  ul.foot li .tit a:hover {color:#eee;}
+.Bot .Hot  ul.foot li .like {width:100%; height:116px;}
+.Bot .Hot  ul.foot li .like div {float:left; width:81px; height:auto;}
+.Bot .Hot  ul.foot li .like div a {margin-bottom:15px; display:block; color:#666; font-size:12px; font-family:SimSun;}
+.Bot .Hot  ul.foot li .like div a:hover {color:#aaa;}
+.Bot .Copyright {width:100%; min-width:1000px; padding:30px 0; height:auto; line-height:26px; text-align:center; color:#454545; font-size:12px; font-family:SimSun; background:#141414;}
+.Bot .Copyright a {color:#454545;}
+.Bot .Copyright a:hover {color:#eee;}
+
+ul.Agreement u {text-decoration:none;}
+
