@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0032)http://i.gamersky.com/user/login -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    {% load staticfiles %}
+    <title>会员登录 _ 游民星空用户中心</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta property="qc:admins" content="114741213315523316375">
+    <script type="text/javascript" src={% static "user/js/jquery-1.8.3.js.download" %}></script>
+    <script type="text/javascript" src={% static "user/js/UserLogin.js" %}></script>
+    <link rel="stylesheet" href={% static "user/css/pop_layer.css" %}>
+    <link type="text/css" rel="stylesheet" href={% static "user/css/User2.css" %}>
+    <link type="text/css" rel="stylesheet" href={% static "user/css/User2_login.css" %}>
+
+    
+</head>
+<body>
+    <div class="Top">
+        <div class="top1">
+            <div class="logo"><a href="http://www.gamersky.com/"></a></div>
+        </div><!--top1 end-->
+    </div><!--Top end-->
+    
+
+
+<div class="Mid">
+    <div class="Midcon">
+        <!--会员登录-->
+        <div class="UserLogin" id="Login">
+            <div class="UserLogin_L">
+                <div class="title">会员登录</div>
+                <div class="input">
+                    <input class="int" type="text" name="UserName" value="" placeholder="请输入邮箱地址/手机号/用户名" maxlength="50">
+                </div>
+                <div class="error"></div>
+                <div class="input">
+                    <input class="int" onpaste="return false" type="password" name="LoginPassword" placeholder="请输入密码" maxlength="20">
+                </div>
+                <div class="error"></div>
+                <div class="input">
+                    <input class="Sex" id="persistentcookie" type="checkbox" name="Ulcookie" checked="checked"><label for="Sex">下次自动登录</label>
+                    <a class="wjmm" href="http://i.gamersky.com/user/getpassword" target="_blank">忘记密码？</a>
+                </div>
+                <div class="btn"><input class="submit" type="submit" value="登 录" id="BtnLogins"></div>
+                <div class="link">没有账户？<a href="http://i.gamersky.com/user/register">马上注册</a></div>
+            </div>
+            <div class="UserLogin_R">
+                <div class="title">其他方式登录</div>
+                <div class="loglist">                  
+                    <a href="javascript:void()" class="qq" id="qqLogin">QQ账号登录</a>
+                    <a href="javascript:void()" class="weibo" id="sinaLogin">微博账号登录</a>
+                    <a href="javascript:void()" class="weixin" id="weixinLogin">微信账号登录</a>
+                </div>
+            </div><!--UserLogin_R end-->
+        </div><!--UserLogin end-->
+    </div><!--Midcon end-->
+</div><!--Mid end-->
+    <div class="Bot">
+        <div class="Hot">
+            <ul class="foot">
+                <li>
+                    <div class="tit"><a href="http://www.gamersky.com/pcgame/" target="_blank">单机游戏</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/news/pc/zx/">游戏资讯</a>
+                            <a target="_blank" href="http://www.gamersky.com/review/pc/">游戏评测</a>
+                            <a target="_blank" href="http://down.gamersky.com/pc/">游戏下载</a>
+                            <a target="_blank" href="http://www.gamersky.com/top/">单机排行榜</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/news/pc/qz/">新游前瞻</a>
+                            <a target="_blank" href="http://www.gamersky.com/z/">游戏专区</a>
+                            <a target="_blank" href="http://www.gamersky.com/handbook/game/gl/">游戏攻略</a>
+                            <a target="_blank" href="http://ku.gamersky.com/release/">发售表</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><a href="http://tv.gamersky.com/" target="_blank">电视游戏</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://tv.gamersky.com/xbox/">XboxOne</a>
+                            <a target="_blank" href="http://www.gamersky.com/news/tv/qz/">新游前瞻</a>
+                            <a target="_blank" href="http://www.gamersky.com/review/tv/">游戏评测</a>
+                            <a target="_blank" href="http://down.gamersky.com/tv/">游戏下载</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://tv.gamersky.com/ps/">PS4</a>
+                            <a target="_blank" href="http://www.gamersky.com/news/tv/zx/">电玩资讯</a>
+                            <a target="_blank" href="http://www.gamersky.com/news/tv/hd/">主机硬件</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><a href="http://shouyou.gamersky.com/" target="_blank">手机游戏</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://shouyou.gamersky.com/">手游频道</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/ios/">苹果频道</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/gl/">手游攻略</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/zx/news/">新游频道</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://shouyou.gamersky.com/android/">安卓频道</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/review/">手游评测</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/ku/">手游下载</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/zx/chanye/">手游产业</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><a href="http://acg.gamersky.com/" target="_blank">动漫星空</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://donghua.gamersky.com/">在线动画</a>
+                            <a target="_blank" href="http://acg.gamersky.com/otaku/zt/">精彩杂谈</a>
+                            <a target="_blank" href="http://acg.gamersky.com/pic/">动漫图库</a>
+                            <a target="_blank" href="http://acg.gamersky.com/zt/">动漫专题</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://acg.gamersky.com/news/">动漫资讯</a>
+                            <a target="_blank" href="http://acg.gamersky.com/otaku/zb/">动漫周边</a>
+                            <a target="_blank" href="http://acg.gamersky.com/music/">动漫音乐</a>
+                            <a target="_blank" href="http://acg.gamersky.com/zt/donghua201510/">十月新番</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit">其他综合</div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/wenku/">杂谈文库</a>
+                            <a target="_blank" href="http://www.gamersky.com/hardware/">游戏硬件</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/industrial/">业界奇扒</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/utopia/">理想国</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/ent/">休闲娱乐</a>
+                            <a target="_blank" href="http://www.gamersky.com/tech/">趣味科技</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/academy/">讲武堂</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/intellectual/">姿势分子</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div><!--Hot end-->
+        <div class="Copyright">
+            <a href="http://www.gamersky.com/about/Index.html" target="_blank">关于本站</a> |
+            <a href="http://www.gamersky.com/about/join.html" target="_blank">网站招聘</a> |
+            <a href="http://www.gamersky.com/about/contact.html" target="_blank">联系我们</a> |
+            <a href="http://www.gamersky.com/about/ad.html" target="_blank">广告服务</a> |
+            <a href="http://www.gamersky.com/about/map.html" target="_blank">网站地图</a> |
+            <a href="http://weibo.com/mygamersky" target="_blank">新浪微博</a> |
+            <a href="http://t.qq.com/gamersky" target="_blank">腾讯微博</a> |
+            <a href="http://u.youku.com/gamersky/" target="_blank">优酷空间</a><br>
+            Copyright©2003-2014 GamerSky.com All rights reserved. 游民星空 版权所有
+            <a href="http://www.miibeian.gov.cn/" target="_blank">冀ICP证B2-20130083</a>
+            冀网文[2013]0591-010号
+        </div><!--Copyright end-->
+    </div><!--Bot end-->
+
+</body></html>
