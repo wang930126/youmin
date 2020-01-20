@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0045)http://i.gamersky.com/user/register/activate/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    {% load staticfiles %}
+    <title>会员信息补充 _ 游民星空用户中心</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta property="qc:admins" content="114741213315523316375">
+    <script type="text/javascript" src={% static "user/js/jquery-1.8.3.js.download" %}></script>
+    <script type="text/javascript" src={% static "user/js/UserLogin.js"%}></script>
+    <link rel="stylesheet" href={% static "user/css/pop_layer.css" %}>
+    <link type="text/css" rel="stylesheet" href={% static "user/css/User2.css" %}>
+    <link type="text/css" rel="stylesheet" href={% static "user/css/User2_login.css" %}>
+    
+</head>
+<body>
+    <div class="Top">
+        <div class="top1">
+            <div class="logo"><a href="http://www.gamersky.com/"></a></div>
+        </div><!--top1 end-->
+    </div><!--Top end-->
+    
+
+<div class="Mid">
+    <div class="Midcon">
+        <!--会员登录-->
+        <div class="RegSupply" id="RegSupply">
+            <form action={% url "user:register_supply" %} id="usersubmit" name="usersubmit">
+                <input name="token" type="hidden" value={{ token }}>
+                <div class="title">欢迎加入游民星空</div>
+
+                <div class="tit">昵称</div>
+                <div class="input"><input class="int" type="text" name="username" value="" maxlength="50" placeholder="输入用户名"></div>
+                <div class="error"></div>
+
+                <div class="tit">性别</div>
+                <div class="input">
+                    <input class="Sex" id="sexboy" type="radio" name="sex" value="1" checked="checked"><label for="Sex_1">男</label>
+                    <input class="Sex" id="sexgirl" type="radio" name="sex" value="2"><label for="Sex_2">女</label>
+                </div>
+                <div class="error"></div>
+
+                <div class="tit">出生日期</div>
+                <div class="input">
+                    <div class="Drop"><select id="select_year" name="select_year" rel=""><option value="0">--</option><option value="2020">2020年</option><option value="2019">2019年</option><option value="2018">2018年</option><option value="2017">2017年</option><option value="2016">2016年</option><option value="2015">2015年</option><option value="2014">2014年</option><option value="2013">2013年</option><option value="2012">2012年</option><option value="2011">2011年</option><option value="2010">2010年</option><option value="2009">2009年</option><option value="2008">2008年</option><option value="2007">2007年</option><option value="2006">2006年</option><option value="2005">2005年</option><option value="2004">2004年</option><option value="2003">2003年</option><option value="2002">2002年</option><option value="2001">2001年</option><option value="2000">2000年</option><option value="1999">1999年</option><option value="1998">1998年</option><option value="1997">1997年</option><option value="1996">1996年</option><option value="1995">1995年</option><option value="1994">1994年</option><option value="1993">1993年</option><option value="1992">1992年</option><option value="1991">1991年</option><option value="1990">1990年</option><option value="1989">1989年</option><option value="1988">1988年</option><option value="1987">1987年</option><option value="1986">1986年</option><option value="1985">1985年</option><option value="1984">1984年</option><option value="1983">1983年</option><option value="1982">1982年</option><option value="1981">1981年</option><option value="1980">1980年</option><option value="1979">1979年</option><option value="1978">1978年</option><option value="1977">1977年</option><option value="1976">1976年</option><option value="1975">1975年</option><option value="1974">1974年</option><option value="1973">1973年</option><option value="1972">1972年</option><option value="1971">1971年</option><option value="1970">1970年</option><option value="1969">1969年</option><option value="1968">1968年</option><option value="1967">1967年</option><option value="1966">1966年</option><option value="1965">1965年</option><option value="1964">1964年</option><option value="1963">1963年</option><option value="1962">1962年</option><option value="1961">1961年</option><option value="1960">1960年</option><option value="1959">1959年</option><option value="1958">1958年</option><option value="1957">1957年</option><option value="1956">1956年</option><option value="1955">1955年</option><option value="1954">1954年</option><option value="1953">1953年</option><option value="1952">1952年</option><option value="1951">1951年</option><option value="1950">1950年</option><option value="1949">1949年</option><option value="1948">1948年</option><option value="1947">1947年</option><option value="1946">1946年</option><option value="1945">1945年</option><option value="1944">1944年</option><option value="1943">1943年</option><option value="1942">1942年</option><option value="1941">1941年</option><option value="1940">1940年</option><option value="1939">1939年</option><option value="1938">1938年</option><option value="1937">1937年</option><option value="1936">1936年</option><option value="1935">1935年</option><option value="1934">1934年</option><option value="1933">1933年</option><option value="1932">1932年</option><option value="1931">1931年</option><option value="1930">1930年</option><option value="1929">1929年</option><option value="1928">1928年</option><option value="1927">1927年</option><option value="1926">1926年</option><option value="1925">1925年</option><option value="1924">1924年</option><option value="1923">1923年</option><option value="1922">1922年</option><option value="1921">1921年</option><option value="1920">1920年</option><option value="1919">1919年</option><option value="1918">1918年</option><option value="1917">1917年</option><option value="1916">1916年</option><option value="1915">1915年</option><option value="1914">1914年</option><option value="1913">1913年</option><option value="1912">1912年</option><option value="1911">1911年</option><option value="1910">1910年</option><option value="1909">1909年</option><option value="1908">1908年</option><option value="1907">1907年</option><option value="1906">1906年</option><option value="1905">1905年</option><option value="1904">1904年</option><option value="1903">1903年</option><option value="1902">1902年</option><option value="1901">1901年</option><option value="1900">1900年</option></select></div>
+                    <div class="Drop"><select id="select_month" name="select_month" rel=""><option value="0">--</option></select></div>
+                    <div class="Drop"><select id="select_day" name="select_day" rel=""><option value="0">--</option></select></div>
+                </div>
+                <div class="error"></div>
+
+                <div class="tit">居住地</div>
+                <div class="input">
+                    <div class="Drop"><select id="select_country" name="select_country" rel="中国"><option value="0">--</option><option value="中国" selected="">中国</option></select></div>
+                    <div class="Drop"><select id="select_province" name="select_province" rel=""><option value="0">--</option><option value="北京">北京</option><option value="上海">上海</option><option value="天津">天津</option><option value="重庆">重庆</option><option value="浙江">浙江</option><option value="江苏">江苏</option><option value="广东">广东</option><option value="福建">福建</option><option value="湖南">湖南</option><option value="湖北">湖北</option><option value="辽宁">辽宁</option><option value="吉林">吉林</option><option value="黑龙江">黑龙江</option><option value="河北">河北</option><option value="河南">河南</option><option value="山东">山东</option><option value="陕西">陕西</option><option value="甘肃">甘肃</option><option value="新疆">新疆</option><option value="青海">青海</option><option value="山西">山西</option><option value="四川">四川</option><option value="贵州">贵州</option><option value="安徽">安徽</option><option value="江西">江西</option><option value="云南">云南</option><option value="内蒙古">内蒙古</option><option value="西藏">西藏</option><option value="广西">广西</option><option value="宁夏">宁夏</option><option value="海南">海南</option><option value="香港">香港</option><option value="澳门">澳门</option><option value="台湾">台湾</option></select></div>
+                    <div class="Drop"><select id="select_city" name="select_city" rel=""><option value="0">--</option></select></div>
+                </div>
+                <div class="error"></div>
+                <div class="btn">
+                    <a href="javascript:;" class="submit">保 存</a>
+                    <a href={% url "user:login" %} class="next">跳 过</a>
+                </div>
+            </form>
+        </div><!--UserLogin end-->
+    </div><!--Midcon end-->
+</div><!--Mid end-->
+
+    <div class="Bot">
+        <div class="Hot">
+            <ul class="foot">
+                <li>
+                    <div class="tit"><a href="http://www.gamersky.com/pcgame/" target="_blank">单机游戏</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/news/pc/zx/">游戏资讯</a>
+                            <a target="_blank" href="http://www.gamersky.com/review/pc/">游戏评测</a>
+                            <a target="_blank" href="http://down.gamersky.com/pc/">游戏下载</a>
+                            <a target="_blank" href="http://www.gamersky.com/top/">单机排行榜</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/news/pc/qz/">新游前瞻</a>
+                            <a target="_blank" href="http://www.gamersky.com/z/">游戏专区</a>
+                            <a target="_blank" href="http://www.gamersky.com/handbook/game/gl/">游戏攻略</a>
+                            <a target="_blank" href="http://ku.gamersky.com/release/">发售表</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><a href="http://tv.gamersky.com/" target="_blank">电视游戏</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://tv.gamersky.com/xbox/">XboxOne</a>
+                            <a target="_blank" href="http://www.gamersky.com/news/tv/qz/">新游前瞻</a>
+                            <a target="_blank" href="http://www.gamersky.com/review/tv/">游戏评测</a>
+                            <a target="_blank" href="http://down.gamersky.com/tv/">游戏下载</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://tv.gamersky.com/ps/">PS4</a>
+                            <a target="_blank" href="http://www.gamersky.com/news/tv/zx/">电玩资讯</a>
+                            <a target="_blank" href="http://www.gamersky.com/news/tv/hd/">主机硬件</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><a href="http://shouyou.gamersky.com/" target="_blank">手机游戏</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://shouyou.gamersky.com/">手游频道</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/ios/">苹果频道</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/gl/">手游攻略</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/zx/news/">新游频道</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://shouyou.gamersky.com/android/">安卓频道</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/review/">手游评测</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/ku/">手游下载</a>
+                            <a target="_blank" href="http://shouyou.gamersky.com/zx/chanye/">手游产业</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit"><a href="http://acg.gamersky.com/" target="_blank">动漫星空</a></div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://donghua.gamersky.com/">在线动画</a>
+                            <a target="_blank" href="http://acg.gamersky.com/otaku/zt/">精彩杂谈</a>
+                            <a target="_blank" href="http://acg.gamersky.com/pic/">动漫图库</a>
+                            <a target="_blank" href="http://acg.gamersky.com/zt/">动漫专题</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://acg.gamersky.com/news/">动漫资讯</a>
+                            <a target="_blank" href="http://acg.gamersky.com/otaku/zb/">动漫周边</a>
+                            <a target="_blank" href="http://acg.gamersky.com/music/">动漫音乐</a>
+                            <a target="_blank" href="http://acg.gamersky.com/zt/donghua201510/">十月新番</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="tit">其他综合</div>
+                    <div class="like">
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/wenku/">杂谈文库</a>
+                            <a target="_blank" href="http://www.gamersky.com/hardware/">游戏硬件</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/industrial/">业界奇扒</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/utopia/">理想国</a>
+                        </div>
+                        <div>
+                            <a target="_blank" href="http://www.gamersky.com/ent/">休闲娱乐</a>
+                            <a target="_blank" href="http://www.gamersky.com/tech/">趣味科技</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/academy/">讲武堂</a>
+                            <a target="_blank" href="http://www.gamersky.com/zl/intellectual/">姿势分子</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div><!--Hot end-->
+        <div class="Copyright">
+            <a href="http://www.gamersky.com/about/Index.html" target="_blank">关于本站</a> |
+            <a href="http://www.gamersky.com/about/join.html" target="_blank">网站招聘</a> |
+            <a href="http://www.gamersky.com/about/contact.html" target="_blank">联系我们</a> |
+            <a href="http://www.gamersky.com/about/ad.html" target="_blank">广告服务</a> |
+            <a href="http://www.gamersky.com/about/map.html" target="_blank">网站地图</a> |
+            <a href="http://weibo.com/mygamersky" target="_blank">新浪微博</a> |
+            <a href="http://t.qq.com/gamersky" target="_blank">腾讯微博</a> |
+            <a href="http://u.youku.com/gamersky/" target="_blank">优酷空间</a><br>
+            Copyright©2003-2014 GamerSky.com All rights reserved. 游民星空 版权所有
+            <a href="http://www.miibeian.gov.cn/" target="_blank">冀ICP证B2-20130083</a>
+            冀网文[2013]0591-010号
+        </div><!--Copyright end-->
+    </div><!--Bot end-->
+    
+    <script type="text/javascript" src={% static "user/js/Select_Time.js.download" %}></script>
+    <script type="text/javascript" src={% static "user/js/Select_Area.js.download" %}></script>
+
+</body></html>
